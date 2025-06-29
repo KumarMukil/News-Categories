@@ -1,19 +1,42 @@
-# News-Categories
-In this repo we are going to develop a news classification report using TF-IDF Vectorization along with the Classification model.
-The Jupyter Notebook file name news classification has the full detailed EDA, feature engineering and model selection and the Jupyter Notebook file name news classification deployment has the final code that is required for the deployment.
-Data source for this repo:https://www.kaggle.com/datasets/rmisra/news-category-dataset/data
-About Dataset
-Context
-** Please cite the dataset using the BibTex provided in one of the following sections if you are using it in your research, thank you! **
+📰 News Classification with TF-IDF and Machine Learning
+📁 Repository Structure
+This repository aims to build a news classification system using TF-IDF vectorization and machine learning classification models. It includes both an exploratory phase and a deployment-ready pipeline.
 
-This dataset contains around 210k news headlines from 2012 to 2022 from HuffPost. This is one of the biggest news datasets and can serve as a benchmark for a variety of computational linguistic tasks. HuffPost stopped maintaining an extensive archive of news articles sometime after this dataset was first collected in 2018, so it is not possible to collect such a dataset in the present day. Due to changes in the website, there are about 200k headlines between 2012 and May 2018 and 10k headlines between May 2018 and 2022.
+🔍 Jupyter Notebooks
+news_classification.ipynb:
+Contains the full exploratory data analysis (EDA), feature engineering, model building, evaluation, and model selection.
 
-Content
-Each record in the dataset consists of the following attributes:
+This notebook is recommended for understanding the entire development pipeline.
 
-category: category in which the article was published.
-headline: the headline of the news article.
-authors: list of authors who contributed to the article.
-link: link to the original news article.
-short_description: Abstract of the news article.
-date: publication date of the article.
+news_classification_deployment.ipynb:
+Contains the final optimized and cleaned code, ready for deployment or integration into an application.
+
+This notebook is lightweight and focuses on reproducibility and inference.
+
+📊 Dataset Overview
+Source: Kaggle - News Category Dataset
+Publisher: HuffPost
+Records: ~210,000 news headlines
+Timeframe: 2012–2022
+
+📝 Citation Required: Please cite the dataset using the BibTeX provided on the Kaggle dataset page if used in research.
+
+📦 Dataset Columns
+Column Name	Description
+category	Category under which the article was published
+headline	Headline of the news article
+authors	List of authors who wrote the article
+link	URL to the original news article
+short_description	Abstract or summary of the article
+date	Date of article publication
+
+🛠️ Tools & Techniques Used
+Text Vectorization: TF-IDF
+
+Modeling: Multinomial Naive Bayes, Logistic Regression, etc.
+
+EDA Tools: Matplotlib, Seaborn, WordCloud
+
+Model Evaluation: Accuracy, Precision, Recall, F1 Score
+
+Deployment Ready Format: Cleaned pipeline for prediction use
