@@ -14,8 +14,7 @@ Contains the final optimized and cleaned code, ready for deployment or integrati
 This notebook is lightweight and focuses on reproducibility and inference.
 
 📊 Dataset Overview
-Source: Kaggle - News Category Dataset
-Publisher: HuffPost
+Source: [Kaggle - News Category Dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset/data)
 Records: ~210,000 news headlines
 Timeframe: 2012–2022
 
